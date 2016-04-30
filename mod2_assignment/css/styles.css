@@ -1,0 +1,129 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #703D2D;
+        font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #84CBE3;
+	border-radius: 0;
+	border: 1px solid #000000;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name*/
+	font-family: 'Arial', sans-serif;
+	color: #703D2D;
+	font-size: 2em;
+    font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+	margin-bottom: 20px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#collapsable-nav {
+	margin-bottom: 30px;
+}
+
+#main-content {
+	width: 97%;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #703D2D;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+.navbar-header button.navbar-toggle:active {
+	clear: both;
+	margin-top: -30px;
+	border: 1px solid #B0D9CF;
+	background-color: 703D2D;
+}
+
+/* END HEADER */
+
+section{
+	margin: 5px 5px 5px 5px;
+	text-align: justify;
+	background-color: #B38B7F;
+	padding: 20px;
+}
+section p {
+	margin-bottom: 35px;
+}
+
+h3{
+	margin-top: -20px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/************ Medium devices only ************/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/************ Small device only ************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/************ Extra small device only ************/
+@media (max-width: 767px) {
+	/* Header */
+	.navbar-brand {
+		padding-top: 10px;
+		height: 10vw;
+		margin-bottom: 0;
+	}
+	.navbar-brand h1 { /* Restaurant name */
+		padding-top: 10px;
+		font-size: 6vw; /* 1vw = 1% of viewport width */
+	}
+
+	.navbar-nav{
+		margin-bottom: 2px;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		border: 0;
+	}
+	#collapsable-nav {
+		margin-bottom: 0px;
+	/*	border: 1px solid #B0D9CF;*/
+	}
+	#collapsable-nav a { /* Collapsed nav menu text */
+		font-size: 1.5em;
+		text-align: center;
+		background-color: #B8443E;
+		color: #84CBE3;
+		border: 1px solid #84CBE3;
+		margin-left: 5px;
+		margin-right: 4px;
+	}
+	section {
+		/*width: 60%;*/
+		/*margin: 5px 65px 5px 65px;*/
+		padding: 20px;
+		/*padding-right: 20px;*/
+	}
+	section p {
+		/*margin: 5px 65px 5px 65px;*/
+		text-align: justify;
+	}
+	/* End header */
+
+}
+
