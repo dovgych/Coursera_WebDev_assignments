@@ -1,5 +1,5 @@
 body {
-	font-size: 16px;
+	font-size: 18px;
 	color: #fff;
 	background-color: #703D2D;
         font-family: 'Oxygen', sans-serif;
@@ -32,7 +32,7 @@ body {
 }
 
 #main-content {
-	width: 97%;
+	/*width: 97%;*/
 }
 
 
@@ -52,18 +52,18 @@ body {
 
 /* END HEADER */
 
-section{
+section div{
 	margin: 5px 5px 5px 5px;
 	text-align: justify;
 	background-color: #B38B7F;
 	padding: 20px;
 }
-section p {
+section div p {
 	margin-bottom: 35px;
 }
 
 h3{
-	margin-top: -20px;
+	margin-top: 5px;
 }
 
 /********** Large devices only **********/
@@ -110,8 +110,8 @@ h3{
 		background-color: #B8443E;
 		color: #84CBE3;
 		border: 1px solid #84CBE3;
-		margin-left: 5px;
-		margin-right: 4px;
+		/*margin-left: 5px;*/
+		/*margin-right: 4px;*/
 	}
 	section {
 		/*width: 60%;*/
